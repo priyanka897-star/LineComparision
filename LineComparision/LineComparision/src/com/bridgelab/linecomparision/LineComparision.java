@@ -10,7 +10,16 @@ public class LineComparision {
 		}
    public static void main(String[] args) {
               LineComparision Object = new LineComparision();
-              double computeDistance = Object.distance(1,2,3,4);
-	          System.out.println("Distance between two point is :" +computeDistance);
-}
+              Double line1 = Object.distance(1,2,3,4);
+              Double line2 = Object.distance(1,2,3,4);
+              if (line1.equals(line2)) {
+                  System.out.println("Line1 and Line2 are equal");
+              }
+              else {
+            	  System.out.println("Line1 and Line2 are not equal");
+            	  
+               }
+ 
+   }
+              
 }
